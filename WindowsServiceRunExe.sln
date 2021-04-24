@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsServiceRunExe", "WindowsServiceRunExe\WindowsServiceRunExe.csproj", "{3698CA93-E131-43E6-8383-35E957F3C0C0}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{71B57682-A53B-427E-9C07-DCADE9BF4A6A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3698CA93-E131-43E6-8383-35E957F3C0C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3698CA93-E131-43E6-8383-35E957F3C0C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3698CA93-E131-43E6-8383-35E957F3C0C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3698CA93-E131-43E6-8383-35E957F3C0C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71B57682-A53B-427E-9C07-DCADE9BF4A6A}.Debug|Any CPU.ActiveCfg = Debug
+		{71B57682-A53B-427E-9C07-DCADE9BF4A6A}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B640C326-77E3-4191-8264-5D869926F79A}
+	EndGlobalSection
+EndGlobal
