@@ -20,13 +20,13 @@ namespace WindowsServiceRunExe
         protected override void OnStart(string[] args)
         {
             File.AppendAllText(filePath, "Basladim -" + DateTime.Now.ToString() + "\r\n");
-            tmr.Elapsed += new ElapsedEventHandler(t_Elapsed);
+            tmr.Elapsed += new ElapsedEventHandler(tmr_Elapsed);
             tmr.Interval = 10000;
             tmr.Start();
         }
 
 
-        private void t_Elapsed(object sender, ElapsedEventArgs e)
+        private void tmr_Elapsed(object sender, ElapsedEventArgs e)
         {
             if (!myProcess.HasExited)
             {
